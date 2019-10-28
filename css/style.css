@@ -1,0 +1,206 @@
+body {margin:0;}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background-color:  #04668d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.navbar .logo {
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar .nav{
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-right: 8%;
+  width: 45%;
+  
+}
+
+
+.navbar a:hover {
+  color: #f2f2f2;
+}
+
+.slide{
+  display: flex;
+  background-image: url('../images/test.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 7%;
+  text-align: center;
+  padding-bottom: 40%;
+}
+
+.bouton{
+  background-color: #01c39a;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+ .btn{
+  background-color: #018090;
+  border-radius: 3px;
+  padding: 1% 2% 1% 2%;
+  
+}
+
+.bouton a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.content .title h1{
+  color: #01c39a;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 38px;
+}
+
+.content .title p{
+  color: #018090;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.description p{
+  text-align: center;
+  font-size: 22px;
+}
+
+.description a{
+  color: #01c39a;
+  text-decoration-line: underline;
+}
+
+.list ul{
+  display: flex;
+  font-size: 22px;
+  margin-left: 30%;
+}
+
+.list li span{
+  color: black;
+}
+
+.list li{
+  margin-right: 3%;
+  color: #01c39a;
+  
+}
+
+.list li:first-child{
+  list-style-type: none;
+}
+
+.pic{
+  margin-left: 28%;
+}
+
+.btn1 a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn1{
+  display: flex;
+  justify-content: center;
+}
+
+.btn1 .btn{
+  margin-left: 4%;
+}
+
+.desc .title .title1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-top: 5%;
+ 
+}
+
+.desc .title .title2{
+  text-align: center;
+  font-size: 31px;
+  color: white;
+  margin-top: -2%;
+ 
+}
+
+.desc{
+  background-color: #01c39a;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+.desc .section .section1{
+  color: #018090;
+  font-size: 33px;
+  margin-left: 10%;
+  letter-spacing: 1px;
+  
+}
+
+.desc .section .section2{
+  color: #018090;
+  font-size: 33px;
+  margin-left: 53%;
+  margin-top: -5%;
+  letter-spacing: 1px;;
+ 
+}
+
+.contenu .cont1{
+  color: #f2f2f2;
+  margin-left: 10% ;
+  font-size: 21px;
+  margin-top: -22%;
+}
+
+.contenu .cont1 p{
+  margin-top: -1.5%;
+  letter-spacing: 1px;
+
+}
+
+.contenu .cont1 ul{
+  margin-top: 3%;
+  letter-spacing: 1px;
+}
+
+.section .cont2{
+  margin-left: 53%;
+}
+
+.section .cont2 .link{
+  display: block;
+  font-size: 22px;
+  text-decoration: none;
+  color: #04668d;
+  margin-top: -36px;
+  margin-left: 90px;
+}
+
